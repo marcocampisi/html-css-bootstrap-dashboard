@@ -1,0 +1,10 @@
+/* HEADER */
+
+header {
+    height: 5vh;
+}
+
+header form > input {
+    border: none;
+    background-color: lightgray;
+}
