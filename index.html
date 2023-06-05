@@ -25,16 +25,123 @@
             </div>
             <div class="col-auto">
                 <nav>
-                    <i class="fa-solid fa-list pe-2"></i>
+                    <a data-bs-toggle="offcanvas" href="#offcanvasHeader" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-list pe-2"></i></a>
                     <i class="fa-solid fa-circle-question px-2"></i>
                     <i class="fa-solid fa-ellipsis-vertical px-2"></i>
                     <i class="fa-solid fa-bell px-2"></i>
                 </nav>
             </div>
         </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasHeader" aria-labelledby="offcanvasHeaderLaber">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="InputName" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="InputName">
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="d-flex flex-column w-100">
+                                    <label for="InputEmail" class="form-label">Email</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="input-group mb-3">
+                                <div class="d-flex flex-column w-100">
+                                    <label for="InputEmail" class="form-label">Email</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="InputLastname" class="form-label">Cognome</label>
+                                <input type="text" class="form-control" id="InputLastname">
+                            </div>                                    
+                            <div class="mb-3">
+                                <label for="InputPassword" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="InputPassowrd">
+                            </div>                                
+                            <div class="mb-3">
+                                <label for="InputPassword" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="InputPassowrd">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputAddress" class="form-label">Indirizzo</label>
+                        <input type="text" class="form-control" id="InputAddress">
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="InputCity" class="form-label">Città</label>
+                                <input type="text" class="form-control" id="InputAddress">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="SelectState" class="form-label">Stato</label>
+                                <select class="form-select" aria-label="SelectState">
+                                    <option selected>Scegli…</option>
+                                    <option value="1">Stato 1</option>
+                                    <option value="2">Stato 2</option>
+                                    <option value="3">Stato 3</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="InputCAP" class="form-label">CAP</label>
+                                <input type="text" class="form-control" id="InputCAP">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="FilePhoto" class="form-label">Foto</label>
+                        <input class="form-control" type="file" id="FilePhoto">
+                      </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="ProceedCheck">
+                      <label class="form-check-label" for="ProceedCheck">Seleziona per proseguire</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Salva</button>
+                    <button type="reset" class="btn btn-warning">Svuota</button>
+                </form>
+            </div>
+          </div>
     </header>
     <main>
-
+        <div class="row">
+            <div class="col-auto px-4 bg-black">
+                <aside class="d-flex flex-column text-white">
+                    <div class="py-2">
+                        <i class="fa-solid fa-house"></i> Home
+                    </div>
+                    <div class="py-2">
+                        <i class="fa-solid fa-chart-simple"></i> Stats
+                    </div>
+                    <div class="py-2">
+                        <i class="fa-solid fa-signal"></i> Signals
+                    </div>
+                    <div class="mt-auto mb-5">
+                        <i class="fa-solid fa-gear"></i> Admin
+                    </div>
+                </aside>
+            </div>
+        </div>
+        <div class="col"></div>
     </main>
     <footer>
 

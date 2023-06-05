@@ -6,8 +6,26 @@ header {
 
 header form > input {
     border: none;
-<<<<<<< HEAD
-=======
-    background-color: lightgray;
->>>>>>> 0c38483e1aaa4984d4bd206c39b1854ac86fede6
+}
+
+nav * {
+    cursor: pointer;
+}
+
+.fa-bell {
+    color: orange;
+}
+
+.fa-list {
+    color: black;
+}
+
+/* MAIN */
+
+body {
+    overflow: hidden;
+}
+
+aside {
+    height: 95vh;
 }
