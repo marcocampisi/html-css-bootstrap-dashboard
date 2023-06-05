@@ -10,14 +10,11 @@ header form > input {
 
 nav * {
     cursor: pointer;
+    color: black
 }
 
 .fa-bell {
     color: orange;
-}
-
-.fa-list {
-    color: black;
 }
 
 /* MAIN */
