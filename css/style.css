@@ -1,7 +1,9 @@
 /* HEADER */
 
 header {
-    height: 5vh;
+    height: 6vh;
+    width: 100%;
+    z-index: 3;
 }
 
 header form > input {
@@ -19,12 +21,21 @@ nav * {
 
 /* MAIN */
 
-body {
-    overflow: hidden;
+main {
+    padding-top: 6vh;
 }
 
 aside {
-    height: 95vh;
+    height: 94vh;
+}
+
+.sidebar {
+    z-index: 2;
+    width: 150px;
+}
+
+.main-col {
+    margin-left: 150px;
 }
 
 .jumbo {
