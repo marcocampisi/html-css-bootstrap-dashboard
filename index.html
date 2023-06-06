@@ -16,7 +16,8 @@
     <header class="position-fixed bg-white">
         <div class="row p-2 align-items-center">
             <div class="col-auto">
-                <img src="img/logo.svg" alt="">
+                <img class="d-none d-md-block" src="img/logo.svg" alt="">
+                <img id="mobile-logo" class="d-md-none d-block" src="img/mobile-logo.png" alt="">
             </div>
             <div class="col">
                 <form class="d-flex" role="search">
@@ -25,7 +26,8 @@
             </div>
             <div class="col-auto">
                 <nav>
-                    <a data-bs-toggle="offcanvas" href="#offcanvasHeader" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-list pe-2"></i></a>
+                    <div class="d-none d-md-inline-block">
+                        <a data-bs-toggle="offcanvas" href="#offcanvasHeader" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-list pe-2"></i></a>
                     <i class="fa-solid fa-circle-question px-2"></i>
                     <div class="dropdown d-inline-block">
                         <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,6 +39,8 @@
                           <li><a class="dropdown-item" href="#">Azione 3</a></li>
                         </ul>
                       </div>
+                    </div>
+                    
                     <i class="fa-solid fa-bell px-2"></i>
                 </nav>
             </div>
