@@ -28,7 +28,6 @@ aside {
 }
 
 .jumbo {
-    height: 100px;
     background-color: dodgerblue;
 }
 
@@ -41,9 +40,18 @@ aside {
     border-radius: 20px;
 }
 
-#add-button {
+.my-button {
     color: white;
     border: 2px solid white;
     border-radius: 5px;
     background: none;
+}
+
+tbody .my-button {
+    color: gray;
+    border: 2px solid lightgray;
+}
+
+tbody span img {
+    height: 30px;
 }
